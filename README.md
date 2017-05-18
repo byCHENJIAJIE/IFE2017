@@ -4,4 +4,4 @@
 
 各学院demo展示：
 ## 耀耀学院
-task01：[https://github.com/jacobbchan/IFE2017/blob/master/yaoyao%20college/task01.html](https://github.com/jacobbchan/IFE2017/blob/master/yaoyao%20college/task01.html)
+task01：[表单验证](http://htmlpreview.github.io/?https://github.com/jacobbchan/IFE2017/blob/master/yaoyao%20college/task01.html)
