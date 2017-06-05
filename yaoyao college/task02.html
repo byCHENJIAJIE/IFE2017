@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>任务二：表单（二）多个表单项的动态校验</title>
+  <link href="style/task02.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<div>
+  <dl>
+    <dt>校验规则：</dt>
+    <dd>1.表单获得焦点时，下方显示表单填写规则</dd>
+    <dd>2.校验结果正确时，表单边框显示绿色，并在下方显示验证通过的描述文字</dd>
+    <dd>3.校验结果错误时，表单边框显示红色，并在下方显示验证错误的描述文字</dd>
+    <dd>4.点击提交按钮时，对页面中所有输入进行校验，校验结果显示方式同上。</dd>
+    <dd>5.若所有表单校验通过，弹窗显示“提交成功”，否则显示“提交失败”</dd>
+  </dl>
+  <form action="#">
+      <table>
+          <tr>
+              <td>名称</td>
+              <td><input type="text" name="user"></td>
+          </tr>
+          <tr>
+              <td class="prompt" colspan="2"></td>
+          </tr>
+          <tr>
+              <td>密码</td>
+              <td><input type="password" name="pass"></td>
+          </tr>
+          <tr>
+              <td class="prompt" colspan="2"></td>
+          </tr>
+          <tr>
+              <td>密码确认</td>
+              <td><input type="password"></td>
+          </tr>
+          <tr>
+              <td class="prompt" colspan="2"></td>
+          </tr>
+          <tr>
+              <td>邮箱</td>
+              <td><input type="text"></td>
+          </tr>
+          <tr>
+              <td class="prompt" colspan="2"></td>
+          </tr>
+          <tr>
+              <td>手机</td>
+              <td><input type="text"></td>
+          </tr>
+          <tr>
+              <td class="prompt" colspan="2"></td>
+          </tr>
+      </table>
+      <input id="sub" type="submit" value="提交">
+  </form>
+</div>
+
+<script src="js/task02.js" type="text/javascript"></script>
+
+</body>
+</html>
