@@ -1,0 +1,35 @@
+* {
+  text-align: center;
+}
+.container {
+  padding: 30px 0px;
+}
+label {
+  margin-right: 50px;
+}
+span {
+  margin-right: 20px;
+}
+#province {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px; 
+}
+#school {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px; 
+}
+#worker-line, #student-line {
+  display: none;
+}
+#comname {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px; 
+  border: 1px solid #999;
+  outline: none;
+  text-align: left;
+  text-indent: 1rem;
+  margin-right: 170px;
+}
